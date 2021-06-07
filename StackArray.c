@@ -101,7 +101,7 @@ void main()
                 break;
             case 2:
                 n=pop(&s);
-                printf("pop value is %d \n ",n);
+                printf("pop value is %d \n: ",n);
                 break;
             case 3:
                 traversal(&s);
@@ -110,7 +110,7 @@ void main()
                 printf("enter a no ");
                 scanf("%d",&i);
                 m= peek(&s,i);    
-                printf("peek value is %d \n",m);
+                printf("peek value is %d \n:",m);
                     break; 
              case 5:
                 exit(0);      
